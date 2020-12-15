@@ -34,6 +34,7 @@ if (temperature < 0) {
 console.log ("Now you're ready to go outside!")
 */
 
+/*
 const isCitizen = false;
 const age = 26;
 
@@ -41,4 +42,17 @@ if (isCitizen && age > 18) {
   console.log("You're eligible to vote.");
 } else {
   console.log("Unfortunately, you have to wait a few more years.");
+}
+*/
+function whichSchool(age) {
+  
+  if (age < 13) {
+    return ("Elementary School");
+  } 
+  else if (age >=13 && age <= 18) {
+    return ("Secondary school");
+  } 
+  else {
+    return ("Lighthouse Labs");
+  }
 }
